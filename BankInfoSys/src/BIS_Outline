@@ -1,0 +1,55 @@
+# Banking Information System (BIS)
+
+----------------------------------
+
+use javadoc tool for code documentation
+
+----------------------------------
+
+# Key Functionality:-
+
+1.User Registration: user will fill basic details to create an account.
+
+2.Accn Management: create & manage user accn's like assigning unique accn no. & tracking accn bal.
+
+3.Deposit & Withdrawal: user can deposit & withdraw funds from their accn and accn bal will be updated accordingly.
+
+4.Fund Transfer: user can transfer funds b/w their accn or to other user's accn.
+
+5.Accn Statements: provide user mini accn statements like displaying transaction history, dates, amounts, and remaining balances.
+
+6.Pass Protection: login system to verify entered accn no. and pass to ensure secure access to user accn's.
+
+7.Error Handling: error handling mechanisms to handle common exceptions like insufficient funds and invalid transactions, and display relevant error messages to users(accn no/ pass not valid,etc).
+
+8.UI: simple & basic user-interface.
+
+9.Data Storage: implement data persistence by storing user accn info & transaction history temporarily during the prototype session.
+
+---------------------------------
+
+# Minimum Requirements and System Output:-
+
+1.User Registration:
+Form Creation: Create a user registration form that prompts users to input their personal details, such as name, address, contact information, and initial deposit amount. 
+Output: Upon successful registration, the system will generate a unique account number for the user, and the user's details will be stored in the system's memory or File System. 
+The output will be a confirmation message indicating successful registration. 
+
+2.Account Management:
+Form Creation: Develop an account management form that allows users to view and update their account information, such as name, address, contact details, and account settings.
+Output: After making any updates or changes, the system will display a confirmation message indicating that the account information has been successfully updated.
+
+3.Deposit & Withdrawal:
+Form Creation: Design a form where users can enter the amount they wish to deposit or withdraw from their account.
+Output: Upon successful deposit or withdrawal transaction completion, the system will update the account balance accordingly and display a confirmation message indicating the transaction details, such as the transaction amount and the resulting balance.
+
+4.Fund Transfer:
+Form Creation: Create a form that allows users to specify the recipient's account number and the amount they wish to transfer.
+Output: After a successful fund transfer, the system will deduct the transferred amount from the sender's account, add it to the recipient's account, and display a confirmation message indicating the transaction details, including the transferred amount and the updated balances of both accounts.
+
+5.Account Statements:
+Output: Implement a feature that allows users to view their account statements, which will be displayed as a comprehensive list showing transaction history, including dates, transaction amounts, and resulting balances. Users can access their account statements through a designated section of the system's user interface.
+
+----------------------------------- End -------------------------------------
+
+
